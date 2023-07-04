@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    font-size: 1.6rem;
+}
+a {
+    text-decoration: none;
+}
+.row {
+    display: flex;
+}
+.main-content {
+    max-width: calc(100% - 48px);
+    width: 1170px;
+    margin: 0 auto;
+}
+.btn {
+    display: inline-block;
+    padding: 11px 41px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 999px;
+    background: #171100;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.header {
+    background: #fffcf4;
+}
+.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+.nav-body {
+    display: flex;
+    align-items: center;
+    padding: 36px 0 8px;
+}
+.nav ul {
+    display: flex;
+}
+.nav {
+    margin-left: auto;
+}
+.nav ul a {
+    padding: 10px 21px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.nav ul .active a {
+    position: relative;
+    color: #171100;
+    font-weight: 600;
+}
+.nav ul .active a::after {
+    position: absolute;
+    content: "";
+    left: 21px;
+    bottom: 10px;
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background: #171100;
+}
+.nav ul a:hover {
+    color: #171100;
+    font-size: 1.6rem;
+    text-shadow: 1px 0 0 currentColor;
+}
+.nav-body .sign-up {
+    margin-left: 50px;
+}
+.hero {
+    padding-top: 72px;
+    background: #fffcf4;
+}
+.hero .info-hero,
+.hero .img-hero {
+    width: 50%;
+}
+
+.hero .img-hero .img-big {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 20px;
+    background: url(<path-to-image>),
+        lightgray -448.75px 0px / 218.672% 100% no-repeat;
+}
+.hero .img-hero {
+    position: relative;
+    padding-bottom: 65px;
+}
+.hero .sticker {
+    position: absolute;
+    right: 10px;
+    bottom: 113px;
+    width: 270px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .body-sticker {
+    margin: 28px 24px;
+}
+
+.hero .body-sticker .row + .row {
+    margin-top: 14px;
+}
+.hero .sticker .design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #fff9e8;
+}
+.hero .sticker .development {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #fcefff;
+}
+
+.hero .sticker .marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ebeaff;
+}
+
+.hero .sticker .Courses {
+    /* margin-top: 14px; */
+    margin-left: 16px;
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.hero .sticker .dsc {
+    margin-left: 16px;
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+.hero .body-info {
+    padding-top: 60px;
+    padding-left: 110px;
+}
+.hero .info-hero .info {
+    color: #171100;
+    font-size: 5.8rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -1.16px;
+}
+.hero .info-hero .dsc {
+    margin-top: 22px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.hero .info-hero .link-row {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+.hero .info-hero .link {
+    color: #fff;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 32px;
+    background: #ffb900;
+}
+.info-hero .watch {
+    margin-left: 28px;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #fffcf4;
+}
+.info-hero .watch .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+}
+.info-hero .watch span {
+    margin-left: 14px;
+    color: #171100;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+.info-hero .dsc-1 {
+    margin-top: 48px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-hero .value {
+    margin-top: 8px;
+}
+.info-hero .item .value {
+    color: #171100;
+    font-size: 4.4rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+}
+.info-hero .item .dsc-value {
+    margin-left: 10px;
+    margin-top: auto;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-hero .item + .item {
+    margin-left: 20px;
+}
