@@ -249,3 +249,305 @@ a {
 .info-hero .item + .item {
     margin-left: 20px;
 }
+.popular {
+    margin-top: 200px;
+}
+.popular .table {
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+}
+.popular .column {
+    flex: 1;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.popular .column .img-desc {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.popular .title-pop {
+    color: #171100;
+    font-size: 3.8rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.76px;
+}
+.popular .row {
+    position: relative;
+}
+.popular .turn {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+.popular .dsc-pop {
+    margin-top: 16px;
+    width: 458px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.popular .body-desc {
+    padding: 16px 22px 22px;
+}
+.popular .body-desc .row {
+    justify-content: space-between;
+    align-items: center;
+}
+.popular .body-desc .row span {
+    color: #fea31b;
+}
+.popular .body-desc h3 {
+    color: #171100;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.popular .body-desc .desc {
+    margin-top: 8px;
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.popular .body-desc .price {
+    margin-top: 12px;
+    justify-content: space-between;
+}
+.popular .body-desc .price strong {
+    color: #171100;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.popular .booking:hover {
+    background: #ffb900;
+}
+.main-quote {
+    margin-top: 200px;
+    padding: 96px 135px;
+    background: #2e2100;
+}
+.main-quote .member {
+    width: 37%;
+}
+.main-quote .quote-desc {
+    width: 63%;
+}
+.member .avt {
+    width: 72px;
+    height: 72px;
+    border-radius: 72px;
+    background: url(<path-to-image>),
+        lightgray -51.126px -33.052px / 228.267% 342.4% no-repeat;
+}
+.member .name {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-size: 2.4rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+}
+.member .desc-name {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.member .s123 {
+    margin-top: 28px;
+}
+.quote-desc i {
+    display: flex;
+    margin-left: 30px;
+    width: 740px;
+    color: #fff;
+    font-size: 2.6rem;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px;
+}
+.intro {
+    margin-top: 200px;
+}
+.top .col-left {
+    width: 49%;
+    display: flex;
+    gap: 30px;
+}
+.top .col-right {
+    width: 51%;
+}
+.top .col-left .img-1,
+.top .col-left .img-2 {
+    width: 50%;
+}
+.top .col-left img {
+    width: 100%;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.top .col-left .img-1 {
+    margin-top: 34px;
+}
+.top .col-right {
+    padding: 58px 135px 30px 130px;
+}
+.title-h2-intro {
+    width: 470px;
+    color: #171100;
+    font-size: 3.8rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.76px;
+}
+.desc-intro {
+    margin-top: 16px;
+    color: #5f5b53;
+    width: 458px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.btn-intro {
+    margin-top: 32px;
+    border-radius: 26px;
+    background: #ffb900;
+}
+.bot .col-left {
+    width: 51%;
+    display: flex;
+    gap: 30px;
+}
+.bot .col-right {
+    width: 49%;
+    padding-top: 71px;
+}
+.bot .col-left .img-1 {
+    padding-left: 130px;
+}
+.bot .col-left img {
+    width: 470px;
+    height: 440px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.bot .title-h2-intro {
+    width: 570px;
+}
+.bot .desc-intro {
+    margin-top: 16px;
+    color: #5f5b53;
+    width: 570px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.main-blog {
+    margin-top: 200px;
+    padding: 96px 0;
+    background: #fffcf4;
+    text-align: center;
+}
+.main-blog .table {
+    display: flex;
+    gap: 30px;
+}
+.main-blog .column {
+    flex: 1;
+}
+.main-blog .column .img-desc {
+    width: 100%;
+    height: 250px;
+    margin-top: 55px;
+    border-radius: 16px 16px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    object-fit: cover;
+}
+.main-blog .title-blog {
+    color: #130606;
+    font-size: 3.8rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.76px;
+}
+.main-blog .desc-blog {
+    width: 448px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #696262;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.main-blog .column .body-desc {
+    text-align: left;
+    margin-left: 0;
+    padding: 20px 20px 28px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.main-blog .column .date {
+    margin-left: 10px;
+    position: relative;
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.main-blog .column .date::before {
+    position: absolute;
+    left: -10px;
+    top: 3px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background: #ffb900;
+}
+.main-blog .column .ngang {
+    margin-top: 10px;
+    width: 160px;
+    height: 1px;
+    border-radius: 0.5px;
+    background: #e2dfda;
+}
+.main-blog .column .title-h3 {
+    margin-top: 10px;
+    color: #171100;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.main-blog .column .btn {
+    margin-top: 12px;
+    padding: 12px 21px;
+    border-radius: 25px;
+}
+.main-blog .column .btn:hover {
+    margin-top: 12px;
+    padding: 12px 21px;
+    border-radius: 25px;
+    background: #ffb900;
+}
+.main-blog .img123 {
+    margin-top: 34px;
+}
+.footer {
+    padding: 96px 0 28px;
+    background: #2e2100;
+}
