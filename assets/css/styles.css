@@ -548,6 +548,68 @@ a {
     margin-top: 34px;
 }
 .footer {
-    padding: 96px 0 28px;
+    padding: 96px 0 0 0;
     background: #2e2100;
+}
+.footer .table {
+    display: flex;
+    gap: 135px;
+}
+.footer .desc-footeer {
+    margin: 18px 0;
+    width: 267px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer .tittle-h4 {
+    color: #fff;
+    font-weight: 600;
+}
+.footer .ngang {
+    margin-top: 14px;
+    width: 130px;
+    height: 1px;
+    background: #59554b;
+}
+.footer .link {
+    display: flex;
+    margin-top: 12px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+    white-space: nowrap;
+}
+.footer .column ul li:first-child {
+    margin-top: 28px;
+}
+.footer strong {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 26px;
+}
+.footer .call {
+    display: inline;
+}
+.footer .location {
+    margin-top: 28px;
+}
+.footer .email,
+footer .phone {
+    margin-top: 12px;
+}
+.footer .end {
+    margin-top: 30px;
+    width: 1170px;
+}
+.footer .copyright {
+    padding: 28px 0;
+    color: #807d74;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
 }
